@@ -42,10 +42,10 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 ## Deploy and Run Cedar
 
 - [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed AWS service for storing Cedar policies and evaluating authorization requests at scale.
-- [Cedarling](https://docs.jans.io/stable/cedarling/) - Embeddable Cedar decision point from the Janssen Project, with a Rust core and WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management.
 - [cedar-local-agent](https://github.com/cedar-policy/cedar-local-agent) - Official Rust crate for running a local decision point with file-backed policy and entity providers that reload on change.
 - [Cedar Agent](https://github.com/permitio/cedar-agent) - Standalone Cedar policy and data agent exposed over HTTP.
 - [Permit.io](https://www.permit.io/) - Authorization-as-a-service platform with Cedar support.
+- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar decision point from the Janssen Project, with a Rust core and WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management.
 - [Cedrus](https://github.com/stratusmedia/cedrus) - Cedar authorization server.
 - [CedrusPermit](https://www.cedruspermit.com) - Hosted permission management built on Cedar.
 
@@ -81,25 +81,16 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 ## IDE and Editor Extensions
 
 - [VS Code](https://github.com/cedar-policy/vscode-cedar) - Official extension with syntax highlighting, validation and schema support ([Marketplace](https://marketplace.visualstudio.com/items?itemName=cedar-policy.vscode-cedar)).
-- [cedar.nvim](https://github.com/edmondop/cedar.nvim) - Neovim plugin for Cedar.
-- [vim-cedar](https://github.com/Dzordzu/vim-cedar) - Vim syntax plugin for Cedar.
-- [zed-cedar](https://github.com/chrnorm/zed-cedar) - Cedar support for the Zed editor.
 
 ## Tools
 
 - [cedar-policy-cli](https://docs.rs/cedar-policy-cli) - Official command-line tool to validate, format, translate and evaluate Cedar policies.
 - [Cedar Analysis (SymCC)](https://docs.rs/cedar-policy-symcc) - Symbolic compiler that translates policies to SMT, so you can prove equivalence, subsumption, disjointness and never-errors properties. The analysis itself is verified in Lean.
 - [cedar-policy-formatter](https://docs.rs/cedar-policy-formatter) - Official formatter library for Cedar policy source.
-- [cdk-verified-permissions](https://github.com/cdklabs/cdk-verified-permissions) - AWS CDK L2 constructs for provisioning Amazon Verified Permissions.
-- [terraform-provider-cedar](https://github.com/common-fate/terraform-provider-cedar) - Terraform provider for managing Cedar policies.
-- [cedar-mcp-server](https://github.com/Pigius/cedar-mcp-server) - MCP server exposing Cedar validate, authorize and diff operations to AI assistants.
-- [cedar-k8s-networkpolicy-compiler](https://github.com/luxas/cedar-k8s-networkpolicy-compiler) - Reason about Kubernetes NetworkPolicies by compiling them to Cedar and running Cedar Analysis.
 
 ## Examples and Reference Applications
 
 - [cedar-examples](https://github.com/cedar-policy/cedar-examples) - Official examples, including the TinyTodo tutorial application.
-- [sample-authzen-interface-verified-permissions](https://github.com/aws-samples/sample-authzen-interface-verified-permissions) - Bridges the OpenID AuthZEN interop spec to Cedar and Amazon Verified Permissions.
-- [sample-cedar-agentic-ai-authorization](https://github.com/aws-samples/sample-cedar-agentic-ai-authorization) - Least-privilege authorization across multi-agent AI delegation chains.
 
 ## Papers and Research
 
@@ -140,7 +131,6 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 
 ## Blogs
 
-- [Cedarland](https://cedarland.blog/) - Long-running blog on Cedar language design and authorization modelling.
 
 ## Contributing
 
