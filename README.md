@@ -36,6 +36,7 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 - [cedar-spec](https://github.com/cedar-policy/cedar-spec) - The Lean formalization of Cedar, plus the differential-testing harness that keeps the Rust implementation honest.
 - [cedar-examples](https://github.com/cedar-policy/cedar-examples) - Official sample applications, including TinyTodo, the app built by the docs tutorial.
 - [RFCs](https://github.com/cedar-policy/rfcs) - The design process for language changes, and the best place to see where Cedar is heading.
+- [Integration tests](https://github.com/cedar-policy/cedar-integration-tests) - Official integration tests for Cedar implementations.
 - [Cedar Community](https://github.com/cedar-policy/cedar-community) - Notes from the monthly community meetings.
 - [Community Slack](https://cloud-native.slack.com/archives/C0AQXC9M4G1) - The Cedar channel on CNCF Slack. Get an invite at [slack.cncf.io](https://slack.cncf.io).
 
@@ -45,9 +46,9 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 - [cedar-local-agent](https://github.com/cedar-policy/cedar-local-agent) - Official Rust crate for running a local decision point with file-backed policy and entity providers that reload on change.
 - [Cedar Agent](https://github.com/permitio/cedar-agent) - Standalone Cedar policy and data agent exposed over HTTP.
 - [Permit.io](https://www.permit.io/) - Authorization-as-a-service platform with Cedar support.
-- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar decision point from the Janssen Project, with a Rust core and WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management.
 - [Cedrus](https://github.com/stratusmedia/cedrus) - Cedar authorization server.
 - [CedrusPermit](https://www.cedruspermit.com) - Hosted permission management built on Cedar.
+- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar decision point from the Janssen Project, with a Rust core and WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management.
 
 ## Language and Platform Integrations
 
@@ -76,7 +77,6 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 - [authorization-for-expressjs](https://github.com/cedar-policy/authorization-for-expressjs) - Official Express middleware that enforces Cedar policies on HTTP routes.
 - [cedar-for-agents](https://github.com/cedar-policy/cedar-for-agents) - Official exploration of Cedar for authorizing AI agents and their tool calls.
 - [kubernetes-cedar-authorizer](https://github.com/upbound/kubernetes-cedar-authorizer) - Proof-of-concept conditional Kubernetes authorizer built on Cedar.
-- [opal-cedar](https://github.com/permitio/opal-cedar) - Reference stack for driving Cedar policy and data updates with OPAL.
 
 ## IDE and Editor Extensions
 
