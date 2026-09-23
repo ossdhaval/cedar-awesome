@@ -122,10 +122,9 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 - [Implementing Role-Based Access Control (RBAC) with Cedar](https://www.permit.io/blog/cedar-rbac) - Modelling roles and permissions in Cedar.
 - [Simplifying Just-in-Time Access Governance using Cedar](https://www.commonfate.io/blog/jit-using-cedar) - Applying Cedar to time-bound access grants.
 - [AWS Verified Permissions and Cedar Policy Language Complete Guide](https://hidekazu-konishi.com/entry/aws_verified_permissions_cedar_complete_guide.html) - A long-form reference covering the language and the managed service.
-- [Schema is Cedar's Superpower](https://medium.com/@gluufederation/schema-is-cedars-super-power-607920de55fb)
-- [Policy Debate: Rego v CEL v Cedar](https://gluufederation.medium.com/policy-debate-rego-v-cel-v-cedar-24cc7a531bbc)
-- [When You Need Cedar, Even if You Love OPA](https://gluufederation.medium.com/when-you-need-cedar-even-if-you-love-opa-66a2ccd62b27)
-- [Test Cedar in Your Browser](https://medium.com/janssen-project-feed/test-cedar-in-your-browser-2bd88c4e859f)
+- [Schema is Cedar's Superpower](https://medium.com/@gluufederation/schema-is-cedars-super-power-607920de55fb) - How schema helps in making Cedar policies more understandable and maintainable.
+- [Policy Debate: Rego v CEL v Cedar](https://gluufederation.medium.com/policy-debate-rego-v-cel-v-cedar-24cc7a531bbc) - Comparing Cedar with Rego and CEL
+- [Test Cedar in Your Browser](https://medium.com/janssen-project-feed/test-cedar-in-your-browser-2bd88c4e859f) - A nifty tool to test Cedar policies in your browser.
 
 ## Videos
 
@@ -136,9 +135,9 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 - [Use policies to manage permissions with Amazon Verified Permissions (re:Invent 2022)](https://www.youtube.com/watch?v=k6pPcnLuOXY) - The session that introduced Verified Permissions and Cedar.
 - [AWS On Air featuring Open Source Security at AWS](https://www.youtube.com/watch?v=T8X7VDmJkz4) - Includes a discussion of Cedar and a demo.
 - [Enforcing Consent Conformance in Your Authz Logic with a Fine-Grained Perms Model (Identiverse 2023)](https://www.youtube.com/watch?v=HnnlGBNur2w) - Consent modelling with a fine-grained permissions model, featuring Cedar.
-- [Top 5 reasons to use Cedar - Interview with Emina Torlak](https://www.youtube.com/live/b4gxRzadung)
-- [Cedar analysis toolkit - Interview with Spencer Erickson and Liana Hadarean](https://www.youtube.com/live/wtdbLLUKXTw)
-- [How Cedar Simplies Authz for Developers - Interview with Dinesh Rajasekharan](https://www.youtube.com/watch?v=ptNWUn8DVZQ)
+- [Top 5 reasons to use Cedar](https://www.youtube.com/live/b4gxRzadung) - Discussion with Emina Torlak
+- [Cedar analysis toolkit](https://www.youtube.com/live/wtdbLLUKXTw) - Discussion with Spencer Erickson and Liana Hadarean
+- [How Cedar Simplies Authz for Developers](https://www.youtube.com/watch?v=ptNWUn8DVZQ) - Discussion with Dinesh Rajasekharan
 
 ## Contributing
 
