@@ -44,11 +44,9 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 
 - [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed AWS service for storing Cedar policies and evaluating authorization requests at scale.
 - [cedar-local-agent](https://github.com/cedar-policy/cedar-local-agent) - Official Rust crate for running a local decision point with file-backed policy and entity providers that reload on change.
-- [Cedar Agent](https://github.com/permitio/cedar-agent) - Standalone Cedar policy and data agent exposed over HTTP.
-- [Permit.io](https://www.permit.io/) - Authorization-as-a-service platform with Cedar support.
+- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar decision point from the Janssen Project, with a Rust core and WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management.
 - [Cedrus](https://github.com/stratusmedia/cedrus) - Cedar authorization server.
 - [CedrusPermit](https://www.cedruspermit.com) - Hosted permission management built on Cedar.
-- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar decision point from the Janssen Project, with a Rust core and WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management.
 
 ## Language and Platform Integrations
 
@@ -68,8 +66,18 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 - [cedar-policy-rb](https://github.com/elct9620/cedar-policy-rb) - Ruby bindings for Cedar.
 - [CedarDotNet](https://github.com/jamiewinder/CedarDotNet) - .NET bindings for Cedar.
 - [monocloud-cedar-dotnet](https://github.com/monocloud/monocloud-cedar-dotnet) - Alternative C#/.NET port, derived from the Java bindings.
-- [cedar-dart](https://github.com/celest-dev/cedar-dart) - Dart implementation of the Cedar engine.
 - [tree-sitter-cedar](https://github.com/SwornSystems/tree-sitter-cedar) - Tree-sitter grammar for Cedar, used by editors for parsing and highlighting.
+- [Cedarling-Rust](https://docs.jans.io/stable/cedarling/tutorials/rust/) - Run Cedar policy decision point in Rust application
+- [Cedarling-WebAssembly](https://docs.jans.io/stable/cedarling/tutorials/javascript/) - Run Cedar policy decision point in browser. Embed into JavaScript based apps. Published to npm as `@janssenproject/cedarling_wasm`.
+- [Cedarling-Python](https://docs.jans.io/stable/cedarling/tutorials/python/) - Run Cedar policy decision point in Python application. Published to PyPI as `cedarling-python`.
+- [Cedarling-Java](https://docs.jans.io/stable/cedarling/tutorials/java/) - Run Cedar policy decision point in Java applications.
+- [Cedarling-Go](https://docs.jans.io/stable/cedarling/tutorials/go/) - Run Cedar policy decision point in Go applications.
+- [Cedarling-C](https://docs.jans.io/stable/cedarling/tutorials/c/) - C bindings, and the base for embedding in other native languages.
+- [Cedarling-Kotlin](https://docs.jans.io/stable/cedarling/tutorials/kotlin/) - Run Cedar policy decision point in Kotlin applications.
+- [Cedarling-Android](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-android/) - Run Cedar policy decision point in Android application.
+- [Cedarling-iOS](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-ios/) - Run Cedar policy decision point in iOS application.
+- [Cedarling-UniFFI](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-uniffi/) - The UniFFI layer that generates the Kotlin, Android and iOS bindings.
+- [Cedarling-sidecar](https://docs.jans.io/stable/cedarling/developer/sidecar/cedarling-sidecar-overview/) - Run Cedar policy decision point as a separate container.
 
 ### Framework and Platform Integrations
 
