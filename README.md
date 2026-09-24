@@ -6,7 +6,13 @@
 
 Cedar lets you express authorization rules as readable policies, decouple them from application code, and reason about them automatically. It is a CNCF Sandbox project, and powers Amazon Verified Permissions.
 
-Note: Amazon does not endorse or support the hyperlinked projects, and expressly disclaims all warranties, whether express, implied or statutory, regarding these projects. Use them “as is” and “as available” at your own discretion.
+## What is `Awesome`
+
+- Cedar official resources. Contents and repos from Amazon or CNCF are considered official. These are highlighted with :office:
+- Community content that is still relevant or kept up-to-date by the author/community. 
+- Community GitHub projects that are active and maintained with at least one release in last 6 months are included in this list.
+  - Active: Projects with recent release within 3 months. These projects are highlighted with a :zap:
+
 
 ## Contents
 
@@ -27,24 +33,24 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 
 ## Official
 
-- [Cedar Project](https://cedarpolicy.com/) - Project home, with an interactive playground, a ten-step tutorial and learning resources.
-- [Cedar Docs](https://docs.cedarpolicy.com/) - Language reference, syntax guide and best practices.
-- [Cedar Playground](https://cedarpolicy.com/en/playground) - Write policies and evaluate authorization requests in the browser, no install required.
-- [CNCF Project Page](https://www.cncf.io/projects/cedar/) - The page for Cedar as a CNCF Sandbox project, accepted in October 2025.
-- [Cedar on GitHub](https://github.com/cedar-policy) - The GitHub organization hosting the language, its proofs and its official integrations.
-- [cedar](https://github.com/cedar-policy/cedar) - The reference implementation of the Cedar language, in Rust.
-- [cedar-spec](https://github.com/cedar-policy/cedar-spec) - The Lean formalization of Cedar, plus the differential-testing harness that keeps the Rust implementation honest.
-- [cedar-examples](https://github.com/cedar-policy/cedar-examples) - Official sample applications, including TinyTodo, the app built by the docs tutorial.
-- [RFCs](https://github.com/cedar-policy/rfcs) - The design process for language changes, and the best place to see where Cedar is heading.
-- [Integration tests](https://github.com/cedar-policy/cedar-integration-tests) - Official integration tests for Cedar implementations.
-- [Cedar Community](https://github.com/cedar-policy/cedar-community) - Notes from the monthly community meetings.
-- [Community Slack](https://cloud-native.slack.com/archives/C0AQXC9M4G1) - The Cedar channel on CNCF Slack. Get an invite at [slack.cncf.io](https://slack.cncf.io).
+- [Cedar Project](https://cedarpolicy.com/) - Project home, with an interactive playground, a ten-step tutorial and learning resources. :office:
+- [Cedar Docs](https://docs.cedarpolicy.com/) - Language reference, syntax guide and best practices. :office:
+- [Cedar Playground](https://cedarpolicy.com/en/playground) - Write policies and evaluate authorization requests in the browser, no install required. :office:
+- [CNCF Project Page](https://www.cncf.io/projects/cedar/) - The page for Cedar as a CNCF Sandbox project, accepted in October 2025. :office:
+- [Cedar on GitHub](https://github.com/cedar-policy) - The GitHub organization hosting the language, its proofs and its official integrations. :office:
+- [cedar](https://github.com/cedar-policy/cedar) - The reference implementation of the Cedar language, in Rust. :office:
+- [cedar-spec](https://github.com/cedar-policy/cedar-spec) - The Lean formalization of Cedar, plus the differential-testing harness that keeps the Rust implementation honest. :office:
+- [cedar-examples](https://github.com/cedar-policy/cedar-examples) - Official sample applications, including TinyTodo, the app built by the docs tutorial. :office:
+- [RFCs](https://github.com/cedar-policy/rfcs) - The design process for language changes, and the best place to see where Cedar is heading. :office:
+- [Integration tests](https://github.com/cedar-policy/cedar-integration-tests) - Official integration tests for Cedar implementations. :office:
+- [Cedar Community](https://github.com/cedar-policy/cedar-community) - Notes from the monthly community meetings. :office:
+- [Community Slack](https://cloud-native.slack.com/archives/C0AQXC9M4G1) - The Cedar channel on CNCF Slack. Get an invite at [slack.cncf.io](https://slack.cncf.io). :office:
 
 ## Deploy and Run Cedar
 
-- [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed AWS service for storing Cedar policies and evaluating authorization requests at scale.
-- [cedar-local-agent](https://github.com/cedar-policy/cedar-local-agent) - Official Rust crate for running a local decision point with file-backed policy and entity providers that reload on change.
-- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar decision point from the Janssen Project, with a Rust core and WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management.
+- [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed AWS service for storing Cedar policies and evaluating authorization requests at scale. :office:
+- [cedar-local-agent](https://github.com/cedar-policy/cedar-local-agent) - Official Rust crate for running a local decision point with file-backed policy and entity providers that reload on change. :office:
+- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar decision point from the Janssen Project, with a Rust core and WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management. :zap: :zap:
 - [Cedrus](https://github.com/stratusmedia/cedrus) - Cedar authorization server.
 - [CedrusPermit](https://www.cedruspermit.com) - Hosted permission management built on Cedar.
 
@@ -52,49 +58,47 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 
 ### Official Bindings
 
-- [cedar-java](https://github.com/cedar-policy/cedar-java) - Java bindings for the Cedar engine.
-- [cedar-go](https://github.com/cedar-policy/cedar-go) - Native Go implementation of Cedar, with no CGO or WASM required.
-- [cedar-authorization](https://github.com/cedar-policy/cedar-authorization) - TypeScript authorization primitives for building Cedar-backed enforcement points.
-- [cedar-wasm](https://www.npmjs.com/package/@cedar-policy/cedar-wasm) - WebAssembly build of the Cedar engine for JavaScript and browser use.
-- [highlightjs-cedar](https://github.com/cedar-policy/highlightjs-cedar) - Cedar syntax highlighting for highlight.js.
-- [prism-cedar](https://github.com/cedar-policy/prism-cedar) - Cedar syntax highlighting for Prism.
-- [cedar-monaco-editor](https://github.com/cedar-policy/cedar-monaco-editor) - Browser Cedar editor component wrapping Monaco, for building your own playground.
+- [cedar-java](https://github.com/cedar-policy/cedar-java) - Java bindings for the Cedar engine. :office:
+- [cedar-go](https://github.com/cedar-policy/cedar-go) - Native Go implementation of Cedar, with no CGO or WASM required. :office:
+- [cedar-authorization](https://github.com/cedar-policy/cedar-authorization) - TypeScript authorization primitives for building Cedar-backed enforcement points. :office:
+- [cedar-wasm](https://www.npmjs.com/package/@cedar-policy/cedar-wasm) - WebAssembly build of the Cedar engine for JavaScript and browser use. :office:
+- [highlightjs-cedar](https://github.com/cedar-policy/highlightjs-cedar) - Cedar syntax highlighting for highlight.js. :office:
+- [prism-cedar](https://github.com/cedar-policy/prism-cedar) - Cedar syntax highlighting for Prism. :office:
+- [cedar-monaco-editor](https://github.com/cedar-policy/cedar-monaco-editor) - Browser Cedar editor component wrapping Monaco, for building your own playground. :office:
 
 ### Community Bindings
 
-- [cedar-py](https://github.com/k9securityio/cedar-py) - Python bindings for Cedar.
-- [cedar-policy-rb](https://github.com/elct9620/cedar-policy-rb) - Ruby bindings for Cedar.
-- [CedarDotNet](https://github.com/jamiewinder/CedarDotNet) - .NET bindings for Cedar.
-- [monocloud-cedar-dotnet](https://github.com/monocloud/monocloud-cedar-dotnet) - Alternative C#/.NET port, derived from the Java bindings.
-- [tree-sitter-cedar](https://github.com/SwornSystems/tree-sitter-cedar) - Tree-sitter grammar for Cedar, used by editors for parsing and highlighting.
-- [Cedarling-Rust](https://docs.jans.io/stable/cedarling/tutorials/rust/) - Run Cedar policy decision point in Rust application
-- [Cedarling-WebAssembly](https://docs.jans.io/stable/cedarling/tutorials/javascript/) - Run Cedar policy decision point in browser. Embed into JavaScript based apps. Published to npm as `@janssenproject/cedarling_wasm`.
-- [Cedarling-Python](https://docs.jans.io/stable/cedarling/tutorials/python/) - Run Cedar policy decision point in Python application. Published to PyPI as `cedarling-python`.
-- [Cedarling-Java](https://docs.jans.io/stable/cedarling/tutorials/java/) - Run Cedar policy decision point in Java applications.
-- [Cedarling-Go](https://docs.jans.io/stable/cedarling/tutorials/go/) - Run Cedar policy decision point in Go applications.
-- [Cedarling-C](https://docs.jans.io/stable/cedarling/tutorials/c/) - C bindings, and the base for embedding in other native languages.
-- [Cedarling-Kotlin](https://docs.jans.io/stable/cedarling/tutorials/kotlin/) - Run Cedar policy decision point in Kotlin applications.
-- [Cedarling-Android](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-android/) - Run Cedar policy decision point in Android application.
-- [Cedarling-iOS](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-ios/) - Run Cedar policy decision point in iOS application.
-- [Cedarling-UniFFI](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-uniffi/) - The UniFFI layer that generates the Kotlin, Android and iOS bindings.
-- [Cedarling-sidecar](https://docs.jans.io/stable/cedarling/developer/sidecar/cedarling-sidecar-overview/) - Run Cedar policy decision point as a separate container.
+- [cedar-py](https://github.com/k9securityio/cedar-py) - Python bindings for Cedar. :zap:
+- [cedar-policy-rb](https://github.com/elct9620/cedar-policy-rb) - Ruby bindings for Cedar. :zap:
+- [monocloud-cedar-dotnet](https://github.com/monocloud/monocloud-cedar-dotnet) - Alternative C#/.NET port, derived from the Java bindings. :zap:
+- [tree-sitter-cedar](https://github.com/SwornSystems/tree-sitter-cedar) - Tree-sitter grammar for Cedar, used by editors for parsing and highlighting. :zap:
+- [Cedarling-Rust](https://docs.jans.io/stable/cedarling/tutorials/rust/) - Run Cedar policy decision point in Rust application :zap:
+- [Cedarling-WebAssembly](https://docs.jans.io/stable/cedarling/tutorials/javascript/) - Run Cedar policy decision point in browser. Embed into JavaScript based apps. Published to npm as `@janssenproject/cedarling_wasm`. :zap:
+- [Cedarling-Python](https://docs.jans.io/stable/cedarling/tutorials/python/) - Run Cedar policy decision point in Python application. Published to PyPI as `cedarling-python`. :zap:
+- [Cedarling-Java](https://docs.jans.io/stable/cedarling/tutorials/java/) - Run Cedar policy decision point in Java applications. :zap:
+- [Cedarling-Go](https://docs.jans.io/stable/cedarling/tutorials/go/) - Run Cedar policy decision point in Go applications. :zap:
+- [Cedarling-C](https://docs.jans.io/stable/cedarling/tutorials/c/) - C bindings, and the base for embedding in other native languages. :zap:
+- [Cedarling-Kotlin](https://docs.jans.io/stable/cedarling/tutorials/kotlin/) - Run Cedar policy decision point in Kotlin applications. :zap:
+- [Cedarling-Android](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-android/) - Run Cedar policy decision point in Android application. :zap:
+- [Cedarling-iOS](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-ios/) - Run Cedar policy decision point in iOS application. :zap:
+- [Cedarling-UniFFI](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-uniffi/) - The UniFFI layer that generates the Kotlin, Android and iOS bindings. :zap:
+- [Cedarling-sidecar](https://docs.jans.io/stable/cedarling/developer/sidecar/cedarling-sidecar-overview/) - Run Cedar policy decision point as a separate container. :zap:
 
 ### Framework and Platform Integrations
 
-- [Cedar for Kubernetes](https://github.com/cedar-policy/cedar-access-control-for-k8s) - Authorize and admit Kubernetes API requests with Cedar policies.
-- [authorization-for-expressjs](https://github.com/cedar-policy/authorization-for-expressjs) - Official Express middleware that enforces Cedar policies on HTTP routes.
-- [cedar-for-agents](https://github.com/cedar-policy/cedar-for-agents) - Official exploration of Cedar for authorizing AI agents and their tool calls.
-- [kubernetes-cedar-authorizer](https://github.com/upbound/kubernetes-cedar-authorizer) - Proof-of-concept conditional Kubernetes authorizer built on Cedar.
+- [Cedar for Kubernetes](https://github.com/cedar-policy/cedar-access-control-for-k8s) - Authorize and admit Kubernetes API requests with Cedar policies. :office:
+- [authorization-for-expressjs](https://github.com/cedar-policy/authorization-for-expressjs) - Official Express middleware that enforces Cedar policies on HTTP routes. :office:
+- [cedar-for-agents](https://github.com/cedar-policy/cedar-for-agents) - Official exploration of Cedar for authorizing AI agents and their tool calls. :office:
 
 ## IDE and Editor Extensions
 
-- [VS Code](https://github.com/cedar-policy/vscode-cedar) - Official extension with syntax highlighting, validation and schema support ([Marketplace](https://marketplace.visualstudio.com/items?itemName=cedar-policy.vscode-cedar)).
+- [VS Code](https://github.com/cedar-policy/vscode-cedar) - Official extension with syntax highlighting, validation and schema support ([Marketplace](https://marketplace.visualstudio.com/items?itemName=cedar-policy.vscode-cedar)). :office:
 
 ## Tools
 
-- [cedar-policy-cli](https://docs.rs/cedar-policy-cli) - Official command-line tool to validate, format, translate and evaluate Cedar policies.
-- [Cedar Analysis (SymCC)](https://docs.rs/cedar-policy-symcc) - Symbolic compiler that translates policies to SMT, so you can prove equivalence, subsumption, disjointness and never-errors properties. The analysis itself is verified in Lean.
-- [cedar-policy-formatter](https://docs.rs/cedar-policy-formatter) - Official formatter library for Cedar policy source.
+- [cedar-policy-cli](https://docs.rs/cedar-policy-cli) - Official command-line tool to validate, format, translate and evaluate Cedar policies. :office:
+- [Cedar Analysis (SymCC)](https://docs.rs/cedar-policy-symcc) - Symbolic compiler that translates policies to SMT, so you can prove equivalence, subsumption, disjointness and never-errors properties. The analysis itself is verified in Lean. :office:
+- [cedar-policy-formatter](https://docs.rs/cedar-policy-formatter) - Official formatter library for Cedar policy source. :office:
 
 ## Playgrounds and Policy Editors
 
@@ -103,7 +107,7 @@ Note: Amazon does not endorse or support the hyperlinked projects, and expressly
 
 ## Examples and Reference Applications
 
-- [cedar-examples](https://github.com/cedar-policy/cedar-examples) - Official examples, including the TinyTodo tutorial application.
+- [cedar-examples](https://github.com/cedar-policy/cedar-examples) - Official examples, including the TinyTodo tutorial application. :office:
 
 ## Papers and Research
 
