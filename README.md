@@ -6,7 +6,7 @@
 
 Cedar lets you express authorization rules as readable policies, decouple them from application code, and reason about them automatically. It is a CNCF Sandbox project, and powers Amazon Verified Permissions.
 
-## What is `Awesome`
+## What is on the `Awesome` list
 
 - Cedar official resources. Contents and repos from Amazon or CNCF are considered official. These are highlighted with :office:
 - Community content that is still relevant or kept up-to-date by the author/community. 
@@ -43,6 +43,7 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 - [cedar-examples](https://github.com/cedar-policy/cedar-examples) - Official sample applications, including TinyTodo, the app built by the docs tutorial. :office:
 - [RFCs](https://github.com/cedar-policy/rfcs) - The design process for language changes, and the best place to see where Cedar is heading. :office:
 - [Integration tests](https://github.com/cedar-policy/cedar-integration-tests) - Official integration tests for Cedar implementations. :office:
+- [cedar-json-parser](https://github.com/cedar-policy/cedar-json-parser) - A JSON parser for Cedar, verified with Verus. :office:
 - [Cedar Community](https://github.com/cedar-policy/cedar-community) - Notes from the monthly community meetings. :office:
 - [Community Slack](https://cloud-native.slack.com/archives/C0AQXC9M4G1) - The Cedar channel on CNCF Slack. Get an invite at [slack.cncf.io](https://slack.cncf.io). :office:
 
@@ -50,7 +51,7 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 
 - [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed AWS service for storing Cedar policies and evaluating authorization requests at scale. :office:
 - [cedar-local-agent](https://github.com/cedar-policy/cedar-local-agent) - Official Rust crate for running a local decision point with file-backed policy and entity providers that reload on change. :office:
-- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar decision point from the Janssen Project, with a Rust core and WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management. :zap: :zap:
+- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar policy decision point with a Rust core. Offers 10 bindings including for WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management. :zap:
 - [Cedrus](https://github.com/stratusmedia/cedrus) - Cedar authorization server.
 - [CedrusPermit](https://www.cedruspermit.com) - Hosted permission management built on Cedar.
 
@@ -70,7 +71,7 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 
 - [cedar-py](https://github.com/k9securityio/cedar-py) - Python bindings for Cedar. :zap:
 - [cedar-policy-rb](https://github.com/elct9620/cedar-policy-rb) - Ruby bindings for Cedar. :zap:
-- [monocloud-cedar-dotnet](https://github.com/monocloud/monocloud-cedar-dotnet) - Alternative C#/.NET port, derived from the Java bindings. :zap:
+- [monocloud-cedar-dotnet](https://github.com/monocloud/monocloud-cedar-dotnet) - Alternative C#/.NET port, derived from the Java bindings.
 - [tree-sitter-cedar](https://github.com/SwornSystems/tree-sitter-cedar) - Tree-sitter grammar for Cedar, used by editors for parsing and highlighting. :zap:
 - [Cedarling-Rust](https://docs.jans.io/stable/cedarling/tutorials/rust/) - Run Cedar policy decision point in Rust application :zap:
 - [Cedarling-WebAssembly](https://docs.jans.io/stable/cedarling/tutorials/javascript/) - Run Cedar policy decision point in browser. Embed into JavaScript based apps. Published to npm as `@janssenproject/cedarling_wasm`. :zap:
@@ -104,10 +105,14 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 
 - [AgamaLab policy designer](https://cloud.gluu.org/agama-lab/dashboard/policy-designer)
 - [OpenPARC Playground](https://playground.openparc.dev/)
+- [cedarling.dev](https://cedarling.dev)
 
 ## Examples and Reference Applications
 
 - [cedar-examples](https://github.com/cedar-policy/cedar-examples) - Official examples, including the TinyTodo tutorial application. :office:
+- [AuthZEN interface for Verified Permissions](https://github.com/aws-samples/sample-authzen-interface-verified-permissions) - Reference implementation connecting the OpenID AuthZEN protocol to Amazon Verified Permissions. :office:
+- [ASP.NET Core authorization provider](https://github.com/aws-samples/amazon-verified-permissions-asp-dotnet-core-custom-auth-policy-provider) - Custom ASP.NET Core authorization policy provider backed by Verified Permissions. :office:
+- [RBAC to PBAC migration sample](https://github.com/aws-samples/sample-app-migrate-access-rbac-to-pbac-with-verified-permissions) - Worked example of migrating from role-based to policy-based authorization. :office:
 
 ## Papers and Research
 
