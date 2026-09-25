@@ -12,6 +12,7 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 - Community content that is still relevant or kept up-to-date by the author/community. 
 - Community GitHub projects that are active and maintained with at least one release in last 6 months are included in this list.
   - Active: Projects with recent release within 3 months. These projects are highlighted with a :zap:
+- Blogs, videos and research papers are sorted by latest on top.
 
 
 ## Contents
@@ -24,11 +25,11 @@ Cedar lets you express authorization rules as readable policies, decouple them f
   - [Framework and Platform Integrations](#framework-and-platform-integrations)
 - [IDE and Editor Extensions](#ide-and-editor-extensions)
 - [Tools](#tools)
+- [Playgrounds and Policy Editors](#playgrounds-and-policy-editors)
 - [Examples and Reference Applications](#examples-and-reference-applications)
 - [Papers and Research](#papers-and-research)
-- [Articles](#articles)
+- [Blogs and Articles](#blogs-and-articles)
 - [Videos](#videos)
-- [Blogs](#blogs)
 - [Contributing](#contributing)
 
 ## Official
@@ -116,45 +117,70 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 
 ## Papers and Research
 
-- [Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization](https://arxiv.org/abs/2403.04651) - The OOPSLA 2024 paper introducing the language and its design goals.
-- [How We Built Cedar: A Verification-Guided Approach](https://arxiv.org/abs/2407.01688) - How proofs, property-based testing and differential testing were used throughout development.
 - [SymCert: Verifying SMT-based policy analyses](https://www.amazon.science/publications/symcert-verifying-smt-based-policy-analyses) - Establishes the correctness of the SMT-based analyses that Cedar Analysis relies on.
+- [How We Built Cedar: A Verification-Guided Approach](https://arxiv.org/abs/2407.01688) - How proofs, property-based testing and differential testing were used throughout development.
+- [Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization](https://arxiv.org/abs/2403.04651) - The OOPSLA 2024 paper introducing the language and its design goals.
 
 ## Blogs and Articles
 
-- [Cedar Joins CNCF as a Sandbox Project](https://aws.amazon.com/blogs/opensource/cedar-joins-cncf-as-a-sandbox-project/) - The donation announcement, and what it means for governance.
-- [Introducing Cedar Analysis](https://aws.amazon.com/blogs/opensource/introducing-cedar-analysis-open-source-tools-for-verifying-authorization-policies/) - Launch post for the open source policy verification tooling.
-- [Migrating from Open Policy Agent to Amazon Verified Permissions](https://aws.amazon.com/blogs/security/migrating-from-open-policy-agent-to-amazon-verified-permissions/) - Practical guidance for moving Rego policies to Cedar.
-- [Cedar: A new approach to policy management for Kubernetes](https://www.cncf.io/blog/2025/03/28/cedar-a-new-approach-to-policy-management-for-kubernetes/) - CNCF blog on using Cedar for cluster authorization.
-- [How we built Cedar with automated reasoning and differential testing](https://www.amazon.science/blog/how-we-built-cedar-with-automated-reasoning-and-differential-testing) - The verification story, written for a general audience.
-- [How we designed Cedar to be intuitive to use, fast, and safe](https://aws.amazon.com/blogs/security/how-we-designed-cedar-to-be-intuitive-to-use-fast-and-safe/) - The language design tradeoffs behind the syntax and evaluation model.
-- [Using Open Source Cedar to Write and Enforce Custom Authorization Policies](https://aws.amazon.com/blogs/opensource/using-open-source-cedar-to-write-and-enforce-custom-authorization-policies/) - A hands-on introduction to embedding Cedar in an application.
-- [Two New Open Source Rust Crates Create Easier Cedar Policy Management](https://aws.amazon.com/blogs/opensource/easier-cedar-policy-management/) - Introduces the local agent and policy management crates.
-- [The Cedar Programming Language: Authorization Simplified](https://thenewstack.io/the-cedar-programming-language-authorization-simplified/) - An accessible overview of what Cedar is for.
-- [All About Cedar, an Open Source Solution for Fine-Tuning Kubernetes Authorization](https://thenewstack.io/all-about-cedar-an-open-source-solution-for-fine-tuning-kubernetes-authorization/) - Deep dive on the Kubernetes integration.
-- [Cedar Brings Fine-Grained Authorization to Kubernetes](https://www.infoq.com/news/2025/04/cedar-kubernetes-authorization/) - InfoQ coverage of the Kubernetes authorizer.
-- [Paper review: Cedar, a new language for authorization](https://muratbuffalo.blogspot.com/2025/03/cedar-new-language-for-expressive-fast.html) - A readable walkthrough of the OOPSLA paper.
-- [Cedar vs Rego (OPA)](https://www.permit.io/blog/opa-vs-cedar) - Compares Cedar and Rego on syntax, analyzability and tooling.
-- [Scaling Authorization with Cedar and OPAL](https://www.permit.io/blog/scaling-authorization-with-cedar-and-opal) - Distributing Cedar policy and data updates in real time.
-- [Implementing Role-Based Access Control (RBAC) with Cedar](https://www.permit.io/blog/cedar-rbac) - Modelling roles and permissions in Cedar.
-- [Simplifying Just-in-Time Access Governance using Cedar](https://www.commonfate.io/blog/jit-using-cedar) - Applying Cedar to time-bound access grants.
-- [AWS Verified Permissions and Cedar Policy Language Complete Guide](https://hidekazu-konishi.com/entry/aws_verified_permissions_cedar_complete_guide.html) - A long-form reference covering the language and the managed service.
-- [Schema is Cedar's Superpower](https://medium.com/@gluufederation/schema-is-cedars-super-power-607920de55fb) - How schema helps in making Cedar policies more understandable and maintainable.
 - [Policy Debate: Rego v CEL v Cedar](https://gluufederation.medium.com/policy-debate-rego-v-cel-v-cedar-24cc7a531bbc) - Comparing Cedar with Rego and CEL
+- [Schema is Cedar's Superpower](https://medium.com/@gluufederation/schema-is-cedars-super-power-607920de55fb) - How schema helps in making Cedar policies more understandable and maintainable.
+- [Composition - Formal Verification's Superpower](https://gluufederation.medium.com/composition-formal-verifications-superpower-1034f55ea9d3) 
+- [When you need Cedar even if you love OPA](https://gluufederation.medium.com/when-you-need-cedar-even-if-you-love-opa-66a2ccd62b27)
+- [Zanzibar Graphs Describe the World. Policies Govern It](https://gluufederation.medium.com/zanzibar-graphs-describe-the-world-policies-govern-it-e379615f61b5)
+- [Mandate or Mission — Cedar v Markdown](https://gluufederation.medium.com/mandate-or-mission-cedar-v-markdown-e169ff509a04)
+- [The Multi-Token AuthZ Challenge](https://gluufederation.medium.com/the-multi-token-authz-challenge-d8a2ef28cf49)
+- [AWS Verified Permissions and Cedar Policy Language Complete Guide](https://hidekazu-konishi.com/entry/aws_verified_permissions_cedar_complete_guide.html) - A long-form reference covering the language and the managed service.
+- [Cedar Joins CNCF as a Sandbox Project](https://aws.amazon.com/blogs/opensource/cedar-joins-cncf-as-a-sandbox-project/) - The donation announcement, and what it means for governance.
+- [All About Cedar, an Open Source Solution for Fine-Tuning Kubernetes Authorization](https://thenewstack.io/all-about-cedar-an-open-source-solution-for-fine-tuning-kubernetes-authorization/) - Deep dive on the Kubernetes integration.
+- [Migrating from Open Policy Agent to Amazon Verified Permissions](https://aws.amazon.com/blogs/security/migrating-from-open-policy-agent-to-amazon-verified-permissions/) - Practical guidance for moving Rego policies to Cedar.
 - [Test Cedar in Your Browser](https://medium.com/janssen-project-feed/test-cedar-in-your-browser-2bd88c4e859f) - A nifty tool to test Cedar policies in your browser.
+- [Introducing Cedar Analysis](https://aws.amazon.com/blogs/opensource/introducing-cedar-analysis-open-source-tools-for-verifying-authorization-policies/) - Launch post for the open source policy verification tooling.
+- [Cedar Brings Fine-Grained Authorization to Kubernetes](https://www.infoq.com/news/2025/04/cedar-kubernetes-authorization/) - InfoQ coverage of the Kubernetes authorizer.
+- [Cedar: A new approach to policy management for Kubernetes](https://www.cncf.io/blog/2025/03/28/cedar-a-new-approach-to-policy-management-for-kubernetes/) - CNCF blog on using Cedar for cluster authorization.
+- [Paper review: Cedar, a new language for authorization](https://muratbuffalo.blogspot.com/2025/03/cedar-new-language-for-expressive-fast.html) - A readable walkthrough of the OOPSLA paper.
+- [Simplifying Just-in-Time Access Governance using Cedar](https://www.commonfate.io/blog/jit-using-cedar) - Applying Cedar to time-bound access grants.
+- [Two New Open Source Rust Crates Create Easier Cedar Policy Management](https://aws.amazon.com/blogs/opensource/easier-cedar-policy-management/) - Introduces the local agent and policy management crates.
+- [How we designed Cedar to be intuitive to use, fast, and safe](https://aws.amazon.com/blogs/security/how-we-designed-cedar-to-be-intuitive-to-use-fast-and-safe/) - The language design tradeoffs behind the syntax and evaluation model.
+- [Implementing Role-Based Access Control (RBAC) with Cedar](https://www.permit.io/blog/cedar-rbac) - Modelling roles and permissions in Cedar.
+- [The Cedar Programming Language: Authorization Simplified](https://thenewstack.io/the-cedar-programming-language-authorization-simplified/) - An accessible overview of what Cedar is for.
+- [Scaling Authorization with Cedar and OPAL](https://www.permit.io/blog/scaling-authorization-with-cedar-and-opal) - Distributing Cedar policy and data updates in real time.
+- [Cedar vs Rego (OPA)](https://www.permit.io/blog/opa-vs-cedar) - Compares Cedar and Rego on syntax, analyzability and tooling.
+- [How we built Cedar with automated reasoning and differential testing](https://www.amazon.science/blog/how-we-built-cedar-with-automated-reasoning-and-differential-testing) - The verification story, written for a general audience.
+- [Using Open Source Cedar to Write and Enforce Custom Authorization Policies](https://aws.amazon.com/blogs/opensource/using-open-source-cedar-to-write-and-enforce-custom-authorization-policies/) - A hands-on introduction to embedding Cedar in an application.
+- [Technometria Blog](https://www.technometria.com/) - 
+    - [Delegation as Data: Applying Cedar Policies to OpenClaw Subagents](https://www.technometria.com/p/delegation-as-data-applying-cedar)
+    - [A Policy-Aware Agent Loop with Cedar and OpenClaw](https://www.technometria.com/p/a-policy-aware-agent-loop-with-cedar)
+    - [Childproofing the Control Plane: Using Cedar to Build Frontal Lobes for Agentic Systems](https://www.technometria.com/p/childproofing-the-control-plane-using)
+    - [Beyond Denial: Using Policy Constraints to Guide OpenClaw Planning](https://www.technometria.com/p/beyond-denial-using-policy-constraints)
+    - [Human in the Loop Control for OpenClaw](https://www.technometria.com/p/human-in-the-loop-control-for-openclaw)
+    - [Authorization Before Retrieval: Making RAG Safe by Construction](https://www.technometria.com/p/authorization-before-retrieval-making)
+    - [Zero Trust, Least Privilege, and Just-in-Time Access](https://www.technometria.com/p/zero-trust-least-privilege-and-just)
+  - [A Gentle Introduction to Automated Reasoning](https://www.amazon.science/blog/a-gentle-introduction-to-automated-reasoning)
+  - [White paper introducing Cedar](https://arxiv.org/pdf/2403.04651)
 
-## Videos
+## Videos 
 
-- [Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization (OOPSLA 2024)](https://www.youtube.com/watch?v=edQLkE5U04c) - The conference talk accompanying the OOPSLA paper.
+- [AWS re:Invent 2022 - Use policies to manage permissions](https://www.youtube.com/watch?v=k6pPcnLuOXY) - The session that introduced Verified Permissions and Cedar.
+- [How MongoDB uses Cedar policy language for fine-grained authorization](https://www.youtube.com/watch?v=Ui7cFy23Y9o)
 - [Hooking Coding Agents with the Cedar Policy Language](https://www.youtube.com/watch?v=m6pzrqFJ6hE) - Matt Maisel on using Cedar to constrain AI coding agents.
-- [Discover Cedar: AWS New Open-Source Policy Language](https://www.youtube.com/watch?v=E4-mCWSsQFc) - An introductory walkthrough of the language.
-- [Demo of the Cedar Programming Language](https://www.youtube.com/watch?v=PzmDYyyA5xM) - A short live demo of writing and evaluating policies.
-- [Use policies to manage permissions with Amazon Verified Permissions (re:Invent 2022)](https://www.youtube.com/watch?v=k6pPcnLuOXY) - The session that introduced Verified Permissions and Cedar.
-- [AWS On Air featuring Open Source Security at AWS](https://www.youtube.com/watch?v=T8X7VDmJkz4) - Includes a discussion of Cedar and a demo.
-- [Enforcing Consent Conformance in Your Authz Logic with a Fine-Grained Perms Model (Identiverse 2023)](https://www.youtube.com/watch?v=HnnlGBNur2w) - Consent modelling with a fine-grained permissions model, featuring Cedar.
 - [Top 5 reasons to use Cedar](https://www.youtube.com/live/b4gxRzadung) - Discussion with Emina Torlak
 - [Cedar analysis toolkit](https://www.youtube.com/live/wtdbLLUKXTw) - Discussion with Spencer Erickson and Liana Hadarean
+- [Amazon's Cedar Open Source Strategy with Ricardo Sueiras and Julian Lovelock](https://www.youtube.com/live/FIIiAcRUe5o) - Discussion with Ricardo Sueiras and Julian Lovelock
+- [Agentic Authorization with Cedar Sarah Cecchetti](https://www.youtube.com/live/zjFPsZenLtk)
+- [CNCF Cedar Update John Kastner](https://www.youtube.com/live/AjjI88INORc)
 - [How Cedar Simplies Authz for Developers](https://www.youtube.com/watch?v=ptNWUn8DVZQ) - Discussion with Dinesh Rajasekharan
+- [Dynamic Authorization Update with Phil Windley](https://www.youtube.com/live/AxwzCZsc3nI)
+- [Cedar Gets Temporal: Meet Dogwood (with Marc Brooker)](https://www.youtube.com/live/v98lD7YmYnk)
+- [Discover Cedar: AWS New Open-Source Policy Language](https://www.youtube.com/watch?v=E4-mCWSsQFc) - An introductory walkthrough of the language.
+- [Enforcing Consent Conformance in Your Authz Logic with a Fine-Grained Perms Model (Identiverse 2023)](https://www.youtube.com/watch?v=HnnlGBNur2w) - Consent modelling with a fine-grained permissions model, featuring Cedar.
+- [AWS On Air - featuring Open Source Security at AWS](https://www.youtube.com/watch?v=T8X7VDmJkz4) - Includes a discussion of Cedar and a demo.
+- [Demo of the Cedar Programming Language](https://www.youtube.com/watch?v=PzmDYyyA5xM) - A short live demo of writing and evaluating policies.
+- [Use policies to manage permissions with Amazon Verified Permissions (re:Invent 2022)](https://www.youtube.com/watch?v=k6pPcnLuOXY) - The session that introduced Verified Permissions and Cedar.
+
+## Books
+
+- [Authorization in Action](https://www.manning.com/books/authorization-in-action) - by Phil Windley
 
 ## Contributing
 
