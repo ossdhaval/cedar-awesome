@@ -52,9 +52,9 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 
 - [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed AWS service for storing Cedar policies and evaluating authorization requests at scale. :office:
 - [cedar-local-agent](https://github.com/cedar-policy/cedar-local-agent) - Official Rust crate for running a local decision point with file-backed policy and entity providers that reload on change. :office:
-- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar policy decision point with a Rust core. Offers 10 bindings including for WASM, Python, Java, Kotlin and iOS bindings, plus JWT validation and policy-store management. :zap:
-- [Cedrus](https://github.com/stratusmedia/cedrus) - Cedar authorization server.
-- [CedrusPermit](https://www.cedruspermit.com) - Hosted permission management built on Cedar.
+- [Cedarling](https://docs.jans.io/stable/cedarling/) - Open-source embeddable Cedar policy decision point with a Rust core. Offers 10 language [bindings](https://docs.jans.io/stable/cedarling/tutorials/cedarling-getting-started/), JWT token mapping and validation. Support policy store format to support policy governance and distribution. :zap:
+- [Cedrus](https://github.com/stratusmedia/cedrus) - REST API server for Cedar Policy authorization, designed for internal infrastructure. It provides a multi-tenant authorization service.
+
 
 ## Language and Platform Integrations
 
@@ -84,7 +84,7 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 - [Cedarling-Android](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-android/) - Run Cedar policy decision point in Android application. :zap:
 - [Cedarling-iOS](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-ios/) - Run Cedar policy decision point in iOS application. :zap:
 - [Cedarling-UniFFI](https://docs.jans.io/stable/cedarling/developer/mobile-apps/cedarling-uniffi/) - The UniFFI layer that generates the Kotlin, Android and iOS bindings. :zap:
-- [Cedarling-sidecar](https://docs.jans.io/stable/cedarling/developer/sidecar/cedarling-sidecar-overview/) - Run Cedar policy decision point as a separate container. :zap:
+- [Cedarling-sidecar](https://docs.jans.io/stable/cedarling/developer/sidecar/cedarling-sidecar-overview/) - Run Cedar policy decision point as a separate Flask container that support [AuthZEN API](https://openid.github.io/authzen/) :zap:
 
 ### Framework and Platform Integrations
 
