@@ -4,7 +4,7 @@
 
 > A curated list of awesome tools, libraries, articles and research for [Cedar](https://cedarpolicy.com/), the open source policy language for fine-grained authorization.
 
-Cedar lets you express authorization rules as readable policies, decouple them from application code, and reason about them automatically. It is a CNCF Sandbox project, and powers Amazon Verified Permissions.
+Cedar lets you express authorization rules as readable policies, decouple them from application code, and reason about them automatically. It is a CNCF Sandbox project, with maintainers from various organizations.
 
 ## What is on the `Awesome` list
 
