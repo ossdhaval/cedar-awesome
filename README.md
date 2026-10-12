@@ -80,7 +80,7 @@ Inactive GitHub projects (no releases in past 6 months) or content that is out-o
 
 ### Framework and Platform Integrations
 
-- [Cedar for Kubernetes](https://github.com/cedar-policy/cedar-access-control-for-k8s) - Authorize and admit Kubernetes API requests with Cedar policies. :office:
+- [Cedar for Kubernetes](https://github.com/upbound/kubernetes-cedar-authorizer) - Authorize and admit Kubernetes API requests with Cedar policies. :office:
 - [authorization-for-expressjs](https://github.com/cedar-policy/authorization-for-expressjs) - Official Express middleware that enforces Cedar policies on HTTP routes. :office:
 - [cedar-for-agents](https://github.com/cedar-policy/cedar-for-agents) - Official exploration of Cedar for authorizing AI agents and their tool calls. :office:
 
