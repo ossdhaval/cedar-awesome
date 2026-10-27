@@ -46,6 +46,7 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 ## Deploy and Run Cedar
 
 - [Amazon Verified Permissions](https://aws.amazon.com/verified-permissions/) - Managed AWS service for storing Cedar policies and evaluating authorization requests at scale. :moneybag:
+- [Gluu](https://gluu.org/) - Offers self-hosted or SaaS deployments for enterprise authorization infrastructure using Cedar policies. :moneybag:
 - [cedar-local-agent](https://github.com/cedar-policy/cedar-local-agent) - Official Rust crate for running a local decision point with file-backed policy and entity providers that reload on change. :office:
 - [Cedarling](https://docs.jans.io/stable/cedarling/) - Linux Foundation Janssen Project governed embeddable PDP powered by the Cedar Rust engine. Offers 10 language [bindings](https://docs.jans.io/stable/cedarling/tutorials/cedarling-getting-started/), JWT token validation and enterprise management features. :zap:
 - [Cedarling-sidecar](https://docs.jans.io/stable/cedarling/developer/sidecar/cedarling-sidecar-overview/) - OpenID [AuthZEN REST API](https://openid.github.io/authzen/) server for Cedar Policy authorization. :zap:
