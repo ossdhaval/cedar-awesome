@@ -102,7 +102,7 @@ Cedar lets you express authorization rules as readable policies, decouple them f
 - [Cedar Playground](https://cedarpolicy.com/en/playground) - Write policies and evaluate authorization requests in the browser, no install required. :office:
 - [AgamaLab policy designer](https://cloud.gluu.org/agama-lab/dashboard/policy-designer)
 - [OpenPARC Playground](https://playground.openparc.dev/)
-- [cedarling.dev](https://cedarling.dev)
+- [cedarling.dev](https://cedarling.dev) - 15 ready apps that you can exercise live from your browser. Experiment with available policies and authz requests to learn Cedar in a fun way.
 
 ## Examples and Reference Applications
 
